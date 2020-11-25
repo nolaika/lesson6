@@ -2,6 +2,10 @@
 	width: 1090px;
 	margin: 0 auto;
 }
+.header-div  {
+	width: 1090px;
+	margin: 0 auto;
+}
 .header-div li {
 	margin: 37px 35px 37px 0;
 }
@@ -27,6 +31,7 @@
 }
 .box1 {
 	height: 460px;
+	/*margin-top: 93px;*/
 }
 .section-div {
 	width: 490px;
@@ -110,4 +115,30 @@
 	width: 100%;
 	margin-bottom: 80px;
 
+}
+.header-fix  {
+	position: fixed;
+	background-color: #FFFFFF;
+	width: 100%;
+	top: 0;
+	left: 0;
+	z-index: 10;
+
+
+}
+.absolute  {
+	margin-top: 93px;
+}
+.ul-a  {
+	font-size: 16px;
+	color: #181C28;
+	font-family: 'Poppins';
+
+}
+.header-fix a:hover {
+	font-size: 20px;
+	color: orange;
+	font-family: 'Playfair Display';
+	font-style: italic;
+	transition: all 0.2s ease-out 0.2s; 
 }
